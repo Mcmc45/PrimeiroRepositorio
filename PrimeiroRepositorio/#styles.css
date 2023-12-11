@@ -1,0 +1,10 @@
+.h1{
+    background-color: blue;
+    font : bold;
+    color :brown;
+    font-family :'Courier New', Courier, monospace;
+}
+p{
+    color: aquamarine;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
