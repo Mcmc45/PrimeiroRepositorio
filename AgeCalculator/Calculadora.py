@@ -6,6 +6,9 @@ from tkinter import messagebox as mb
 janela = tk.Tk()
 janela.geometry('320x320')
 janela.title('Age Calculator')
+janela.resizable(False,False)
+janela.anchor(anchor='center')
+
 
 nome = tk.Label(text = 'Nome:', height = 2,font = ('Bookman Old Style',14))
 nome.grid(column = 0, row = 1)
