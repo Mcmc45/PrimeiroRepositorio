@@ -1,8 +1,8 @@
 from datetime import datetime as dt
 class Pessoa :
 
-    def __init__(self,nome:str,dataNascimento: int) -> None:
-        self.__nome = nome 
+  def __init__(self,nome:str,dataNascimento: int) -> None:
+        self.__nome = nome   
         self.__dataNascimento = dataNascimento
    
     @property
