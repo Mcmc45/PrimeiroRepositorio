@@ -2,9 +2,10 @@
     box-sizing: border-box;
     margin:0;
     padding: 0; 
+
 }
 body > header{
-    background-color: rgb(171, 44, 198);
+    background-color: #ab2cc6;
     padding: 16px 0;
     color: rgb(255, 235, 205);
 }
@@ -49,6 +50,8 @@ section {
 }
 
 .articles article h3 {
+    font-family: 'DM Serif Display', serif;
+    align-items: center;
     margin-top:8px ;
     margin-bottom:8px ;
 }
@@ -58,7 +61,7 @@ section h2 , .articles article{
 
 }
 .articles article p, .articles article a{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .articles article a {
@@ -87,13 +90,27 @@ section h2{
 }
 
 #economy{
-    background-color: rgb(161, 42, 98)
+    background-color: blanchedalmond
 }
 
+#reportagem{
+    background-color:blanchedalmond
+}
+#famosos{
+    background-color:blanchedalmond
+}
 #sports .articles article a{
     background-color: rgb(161, 42, 98);
 }
 
 #economy .articles article a{
-    background-color: blanchedalmond
+    background-color: rgb(161, 42, 98)
+}
+
+#reportagem .articles article a{
+    background-color: rgb(161, 42, 98)
+}
+
+#famosos .articles article a{
+    background-color: rgb(161, 42, 98)
 }
