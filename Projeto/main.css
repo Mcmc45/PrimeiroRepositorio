@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0; 
+
+}
+h1{
+    background-color: #0f32ce;
+    padding: 16px 0;
+    color: rgb(255, 235, 205);
+}
+h2{
+    padding: 18px 0;
+}
+.ans ,.ansp1{
+    padding: 15px 0;
+}
+/* .ans ,.ansp2{
+    padding: 15px 0;
+} */

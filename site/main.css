@@ -41,9 +41,7 @@ header li a {
     
 }
 
-.articles article{
-    width: 30%;
-}
+
 
 section {
     padding: 16px 0;
@@ -114,3 +112,18 @@ section h2{
 #famosos .articles article a{
     background-color: rgb(161, 42, 98)
 }
+
+@media screen  and(max-width : 640px){
+    .container
+    background-color:rgb(161, 42, 98);
+}
+
+.articles article{
+    width: 90%;
+}
+
+@media screen and(min-width:641px) and(max-width:1365px){
+    .container
+    background-color:rgb(161, 42, 98) ;
+}
+
