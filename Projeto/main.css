@@ -2,26 +2,57 @@
     box-sizing: border-box;
     margin:0;
     padding: 0; 
-
 }
 .jare{
-    background-color: #0f32ce;
+    background-color:rgb(124, 47, 167);
     padding: 16px 0;
     color: rgb(255, 235, 205);
 }
+
+body{
+    background-color:rgb(255, 235, 205);
+}
+.hero{
+    width: 960px;
+    margin: auto;
+}
+h3{
+    justify-self:baseline;
+    margin-left: 5px;
+}
+.conteudo{
+    display: table;
+}
+.imagem{
+    display: table-cell;
+    float: left;
+}
+.texto{
+    display: table-cell;
+    float: left;
+    width: 500px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+}
+
 h2{
     padding: 10px 0;
 }
 .ans ,.ansp1,#ansp2{
     padding: 10px 0;
 }
-/* .ans ,.ansp2{
-    padding: 15px 0;
-} */
 
 .container{
     border: 1px solid red;
     margin-left: 20px;
+}
+a{
+ color: black;   
 }
 #ansp2{
     padding-bottom: 20px;
@@ -30,4 +61,10 @@ h2{
 
 header h1{
     padding-left: 30px;
+}
+
+
+#hero p {
+    margin-top: 100px;
+    justify-self: center;
 }
