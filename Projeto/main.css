@@ -2,63 +2,90 @@
     box-sizing: border-box;
     margin:0;
     padding: 0; 
+    
 }
-.jare{
-    background-color:#b779e4;
-    padding: 25px 0;
-    color: #fdc87c;
-    justify-self: center;
+body > header{
+    background-color: #000000;
+    padding: 16px 0;
+    color: rgb(255, 235, 205);
 }
-
 body{
-    background-color:bisque;
-}
-.hero{
-    width: 960px;
-    margin: auto;
-}
-.conteudo h3{
-    justify-self:center;
-    width: 500px;
-    margin-left: 50px;
-}
-.conteudo{
-    display: table;
-}
-.imagem{
-    display: table-cell;
-    float: left;
-}
-.texto{
-    display: table-cell;
-    float: left;
-    font-family: 'Roboto', sans-serif;
-    width: 500px;
-    margin-top: -20px;
-    margin-left: 20px;
+    background-color: rgb(255, 235, 205);;
 }
 
-img{
-    height: 900px;
-    width: 900px;
+
+header .container{
+    display: flex;
+    align-items: center;
+}
+
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articles img{
+    height: 300px;
+}
+
+section {
+    padding: 5px 0;
+}
+
+.articles article h2{
+    font-family: 'DM Serif Display', serif;
+    align-items: center;
+    margin-top:8px ;
+    margin-bottom:8px ;
+    padding: 20px;
+}
+
+section h2 , .articles article{
+    margin-bottom: 16px;
+    padding: 20px;
+
+}
+.articles  article p {
+    font-family: 'Quicksand', sans-serif;
 }
 
 header h1{
     padding-left: 30px;
 }
 
-#hero p , h3 {
-    margin-top: 50px;
-    justify-self: center;
-    font-family: 'Courier New', Courier, monospace;
+section h2{
+    font-size: 30px;
+    color: #bb7c7c;
+    margin-bottom: -30px;
+   
 }
 
+
 .fcc-btn {
-    background-color:#fdc87c;
+    background-color:#ea9318;
     color: white;
     margin-top: -300px;
     margin-left: 300px;
     border-radius: 5px;
     padding: 5px 15px;
     text-decoration:dashed;
-  }
+}
+
+
+.articles article{
+    width: 90%;
+}
+
+@media screen and(max-width: 640px){
+    .container{
+        background-color:chocolate;
+    }
+   
+}

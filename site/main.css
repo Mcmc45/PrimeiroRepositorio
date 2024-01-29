@@ -38,11 +38,8 @@ header li a {
 
 .articles img{
     height: 180px;
-    
+
 }
-
-
-
 section {
     padding: 16px 0;
 }
@@ -67,7 +64,7 @@ section h2 , .articles article{
     padding: 8px;
     display: inline-block;
     font-weight: 700;
-    color: blanchedalmond;
+    color: rgb(12, 20, 161);
   
 }
 
@@ -113,17 +110,19 @@ section h2{
     background-color: rgb(161, 42, 98)
 }
 
-@media screen  and(max-width : 640px){
-    .container
-    background-color:rgb(161, 42, 98);
-}
+/* @media screen  and(max-width : 640px){
+    .container{
+        background-color:rgb(161, 42, 98);
+    }
+} */
 
 .articles article{
     width: 90%;
 }
 
 @media screen and(min-width:641px) and(max-width:1365px){
-    .container
-    background-color:rgb(161, 42, 98) ;
+    .container{
+        background-color:rgb(161, 42, 98) ;
+    }
 }
 
